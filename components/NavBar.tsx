@@ -16,7 +16,7 @@ const NavBar = () => {
           />
         </Link>
       </div>
-      <ul className="xl:flex hidden text-small gap-7">
+      <ul className="md:flex text-small md:gap-7">
         {NavLinks.map((link) => (
           <Link href={link.href} key={link.key} className="flex justify-center items-center">
             <li>{link.text}</li>
