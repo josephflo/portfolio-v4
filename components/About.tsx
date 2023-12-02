@@ -10,11 +10,11 @@ const About = () => {
       >ABOUT ME</h1>
       <div className='flex flex-col md:flex-row md:p-16 md:justify-between'>
         <Image
-          src='/phone2.png'
+          src='/profile4.png'
           alt='perfil_png'
-          width={200}
+          width={180}
           height={400}
-          className='w-1/4'
+          className='w-1/4 bg-purple-500 rounded-xl'
         />
         <div className='flex w-3/4 md:px-12'>
           <p
